@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<n0:StandardBusinessDocument xmlns:n0="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:prx="urn:sap.com:proxy:L1D:/1SAI/TAS9290DB4E2471E379E3D0:757" xmlns:n1="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:n2="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:n3="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+ <n0:StandardBusinessDocumentHeader>
+  <n0:HeaderVersion>1.0</n0:HeaderVersion>
+  <n0:Sender>
+   <n0:Identifier Authority="iso6523-actorid-upis">9931:EE100062786</n0:Identifier>
+  </n0:Sender>
+  <n0:Receiver>
+   <n0:Identifier Authority="iso6523-actorid-upis">0088:4751003380007</n0:Identifier>
+  </n0:Receiver>
+  <n0:DocumentIdentification>
+   <n0:Standard>urn:oasis:names:specification:ubl:schema:xsd:Invoice-2</n0:Standard>
+   <n0:TypeVersion>2.1</n0:TypeVersion>
+   <n0:InstanceIdentifier>C934E81691281EEFAAFF0A1C00E29295</n0:InstanceIdentifier>
+   <n0:Type>Invoice</n0:Type>
+   <n0:CreationDateAndTime>2024-11-27T14:29:27+02:00</n0:CreationDateAndTime>
+  </n0:DocumentIdentification>
+  <n0:BusinessScope>
+   <n0:Scope>
+    <n0:Type>DOCUMENTID</n0:Type>
+    <n0:InstanceIdentifier>urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1</n0:InstanceIdentifier>
+   </n0:Scope>
+   <n0:Scope>
+    <n0:Type>PROCESSID</n0:Type>
+    <n0:InstanceIdentifier/>
+   </n0:Scope>
+  </n0:BusinessScope>
+ </n0:StandardBusinessDocumentHeader>
+ <n3:Invoice>
+  <n2:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</n2:CustomizationID>
+  <n2:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</n2:ProfileID>
+  <n2:ID>9300000068</n2:ID>
+  <n2:IssueDate>2024-11-15</n2:IssueDate>
+  <n2:DueDate>2024-12-05</n2:DueDate>
+  <n2:InvoiceTypeCode>380</n2:InvoiceTypeCode>
+  <n2:DocumentCurrencyCode>EUR</n2:DocumentCurrencyCode>
+  <n2:BuyerReference>BUYER REF</n2:BuyerReference>
+  <n1:OrderReference>
+   <n2:ID>Order reference test</n2:ID>
+   <n2:SalesOrderID>0000035049</n2:SalesOrderID>
+  </n1:OrderReference>
+  <n1:AccountingSupplierParty>
+   <n1:Party>
+    <n2:EndpointID schemeID="9931">EE100062786</n2:EndpointID>
+    <n1:PartyName>
+     <n2:Name>Rimi Eesti Food AS</n2:Name>
+    </n1:PartyName>
+    <n1:PostalAddress>
+     <n2:StreetName>Põrguvälja tee    3</n2:StreetName>
+     <n2:CityName>Harjumaa Pildiküla Rae vald</n2:CityName>
+     <n2:PostalZone>75308</n2:PostalZone>
+     <n1:Country>
+      <n2:IdentificationCode>EE</n2:IdentificationCode>
+     </n1:Country>
+    </n1:PostalAddress>
+    <n1:PartyTaxScheme>
+     <n2:CompanyID>EE100062786</n2:CompanyID>
+     <n1:TaxScheme>
+      <n2:ID>VAT</n2:ID>
+     </n1:TaxScheme>
+    </n1:PartyTaxScheme>
+    <n1:PartyLegalEntity>
+     <n2:RegistrationName>Rimi Eesti Food AS</n2:RegistrationName>
+     <n2:CompanyID>EE100062786</n2:CompanyID>
+    </n1:PartyLegalEntity>
+    <n1:Contact>
+     <n2:Name>Rimi Eesti Food AS</n2:Name>
+     <n2:Telephone>+372 6059 400</n2:Telephone>
+     <n2:ElectronicMail>info.ee@rimibaltic.com</n2:ElectronicMail>
+    </n1:Contact>
+   </n1:Party>
+  </n1:AccountingSupplierParty>
+  <n1:AccountingCustomerParty>
+   <n1:Party>
+    <n2:EndpointID schemeID="0088">4751003380007</n2:EndpointID>
+    <n1:PartyName>
+     <n2:Name>Jungent A/S</n2:Name>
+    </n1:PartyName>
+    <n1:PostalAddress>
+     <n2:StreetName>Brīvības iela 127</n2:StreetName>
+     <n2:CityName>Rīga</n2:CityName>
+     <n2:PostalZone>LV1012</n2:PostalZone>
+     <n1:Country>
+      <n2:IdentificationCode>LV</n2:IdentificationCode>
+     </n1:Country>
+    </n1:PostalAddress>
+    <n1:PartyTaxScheme>
+     <n2:CompanyID>LV40003291249</n2:CompanyID>
+     <n1:TaxScheme>
+      <n2:ID>VAT</n2:ID>
+     </n1:TaxScheme>
+    </n1:PartyTaxScheme>
+    <n1:PartyLegalEntity>
+     <n2:RegistrationName>Jungent A/S</n2:RegistrationName>
+     <n2:CompanyID schemeID="0088">4751003380007</n2:CompanyID>
+    </n1:PartyLegalEntity>
+   </n1:Party>
+  </n1:AccountingCustomerParty>
+  <n1:Delivery>
+   <n2:ActualDeliveryDate>2024-11-15</n2:ActualDeliveryDate>
+   <n1:DeliveryLocation>
+    <n2:ID>LV40003291249</n2:ID>
+    <n1:Address>
+     <n2:StreetName>Brīvības iela 127</n2:StreetName>
+     <n2:CityName>Rīga</n2:CityName>
+     <n2:PostalZone>LV1012</n2:PostalZone>
+     <n1:Country>
+      <n2:IdentificationCode>LV</n2:IdentificationCode>
+     </n1:Country>
+    </n1:Address>
+   </n1:DeliveryLocation>
+   <n1:DeliveryParty>
+    <n1:PartyName>
+     <n2:Name>Jungent A/S</n2:Name>
+    </n1:PartyName>
+   </n1:DeliveryParty>
+  </n1:Delivery>
+  <n1:PaymentTerms>
+   <n2:Note>Kuni 05.12.2024 mahaarvamiseta.</n2:Note>
+  </n1:PaymentTerms>
+  <n1:TaxTotal>
+   <n2:TaxAmount currencyID="EUR">0.00</n2:TaxAmount>
+   <n1:TaxSubtotal>
+    <n2:TaxableAmount currencyID="EUR">121.00</n2:TaxableAmount>
+    <n2:TaxAmount currencyID="EUR">0.00</n2:TaxAmount>
+    <n1:TaxCategory>
+     <n2:ID>Z</n2:ID>
+     <n2:Percent>0.00</n2:Percent>
+     <n1:TaxScheme>
+      <n2:ID>VAT</n2:ID>
+     </n1:TaxScheme>
+    </n1:TaxCategory>
+   </n1:TaxSubtotal>
+  </n1:TaxTotal>
+  <n1:LegalMonetaryTotal>
+   <n2:LineExtensionAmount currencyID="EUR">121.00</n2:LineExtensionAmount>
+   <n2:TaxExclusiveAmount currencyID="EUR">121.00</n2:TaxExclusiveAmount>
+   <n2:TaxInclusiveAmount currencyID="EUR">121.00</n2:TaxInclusiveAmount>
+   <n2:PayableAmount currencyID="EUR">121.00</n2:PayableAmount>
+  </n1:LegalMonetaryTotal>
+  <n1:InvoiceLine>
+   <n2:ID>000010</n2:ID>
+   <n2:InvoicedQuantity unitCode="PCE">2.000</n2:InvoicedQuantity>
+   <n2:LineExtensionAmount currencyID="EUR">121.00</n2:LineExtensionAmount>
+   <n1:AllowanceCharge>
+    <n2:ChargeIndicator>true</n2:ChargeIndicator>
+    <n2:AllowanceChargeReason>Netoväärtus</n2:AllowanceChargeReason>
+    <n2:Amount currencyID="EUR">121.00</n2:Amount>
+   </n1:AllowanceCharge>
+   <n1:Item>
+    <n2:Description>KASTE MAHE 230G TACO S.M. /12/</n2:Description>
+    <n2:Name>KASTE MAHE 230G TACO S.M. /12/</n2:Name>
+    <n1:SellersItemIdentification>
+     <n2:ID>000000000000100006</n2:ID>
+    </n1:SellersItemIdentification>
+    <n1:OriginCountry>
+     <n2:IdentificationCode>MX</n2:IdentificationCode>
+    </n1:OriginCountry>
+    <n1:CommodityClassification>
+     <n2:ItemClassificationCode listID="HS">09023000</n2:ItemClassificationCode>
+    </n1:CommodityClassification>
+    <n1:ClassifiedTaxCategory>
+     <n2:ID>Z</n2:ID>
+     <n2:Percent>0.00</n2:Percent>
+     <n1:TaxScheme>
+      <n2:ID>VAT</n2:ID>
+     </n1:TaxScheme>
+    </n1:ClassifiedTaxCategory>
+   </n1:Item>
+   <n1:Price>
+    <n2:PriceAmount currencyID="EUR">60.50</n2:PriceAmount>
+    <n2:BaseQuantity unitCode="PCE">1.000</n2:BaseQuantity>
+   </n1:Price>
+  </n1:InvoiceLine>
+ </n3:Invoice>
+</n0:StandardBusinessDocument>
